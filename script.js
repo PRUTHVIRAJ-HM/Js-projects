@@ -180,3 +180,7 @@ function runcode(){
 function refreshing(){
     location.reload();
 }
+
+function mywebpage(){
+    window.open('https://github.com/PRUTHVIRAJ-HM/Js-projects/tree/Joke-Generator');
+}

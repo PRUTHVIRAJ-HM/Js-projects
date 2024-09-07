@@ -110,10 +110,11 @@ body{
 
 
 footer{
-    background:#EFACA7;
+    background:#FFFFFF;
     position: fixed;
     left: 0;
     bottom: 0;
+    border-top: 2px solid #30303D;
     width: 100%;
     color:#30303D;
     font-size:18px;

@@ -1,0 +1,124 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: Poppins;
+
+}
+body{
+    background-color:#FFFFFF;
+}
+.nav{
+    padding-top:5px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.logoname{
+    color:#30303D;
+}
+.nav-elements{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    cursor:pointer;
+    color:#30303D;
+    font-weight: 600;
+}
+.gitbutton{
+    background-color:#30303D;
+    display: flex;
+    gap:5px;
+    padding:5px 10px;
+    border-radius: 50px;
+    align-items: center;
+}
+.gitbutton>img{
+    width:15px;
+    height:15px;
+}
+.github-link{
+    color:#FFFFFF;
+
+}
+
+
+
+
+
+
+
+
+/* contents section*/
+
+.contents{
+    width:60%;
+    background:#9D9FE6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:100px auto;
+    border:none;
+    border-radius: 7px;
+
+
+}
+.contents>h1{
+    color:#ffff;
+    position:relative;
+    margin-top: 20px;
+}
+#content-image{
+    padding:10px;
+    width:150px;
+}
+.contents>button{
+    padding:8px 10px;
+    font-size: 16px;
+    font-weight: 700;
+    border:none;
+    border-radius: 50px;
+    background: #30303D;
+    color:#FFFFFF;
+    position: relative;
+    margin: 20px;
+    cursor:pointer;
+}
+#answer{
+    position: relative;
+    margin-top: 10px;
+    text-align: center;
+    color:white;
+    font-size: 20;
+    font-weight: 600;
+}
+@media only screen and (max-width: 600px){
+    .contents{
+        width:85%;
+        font-size: 14px;
+    }
+
+}
+
+
+
+
+
+/*Footer section */
+
+
+footer{
+    background:#EFACA7;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color:#30303D;
+    font-size:18px;
+    font-weight: 600;
+    text-align: center;
+    padding-top:3px;
+    padding-bottom:3px;
+
+}
